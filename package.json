@@ -1,0 +1,21 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "CLI-based background job queue (QueueCTL) - Node.js implementation using sqlite3",
+  "main": "queuectl.js",
+  "bin": {
+    "queuectl": "./queuectl.js"
+  },
+  "scripts": {
+    "start": "node queuectl.js",
+    "test": "bash test.sh"
+  },
+  "keywords": ["queue", "cli", "jobs", "dlq"],
+  "author": "Amanjeet",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0"
+  }
+}
