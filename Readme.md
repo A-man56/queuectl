@@ -229,8 +229,8 @@ powershell -ExecutionPolicy Bypass -File test.ps1
 
 Add your required CLI demo here:
 
-👉 **Demo URL:** *[https://drive.google.com/](https://drive.google.com/)...*
-*(Replace with your uploaded video link)*
+👉 **Demo URL:** 
+
 
 **QueueCTL – Backend Developer Assignment**
 Built with Node.js + SQLite.
